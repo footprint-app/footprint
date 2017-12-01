@@ -9,6 +9,11 @@ body {
 h1 {
   font-weight: bold;
 }
+
+.navbar {
+  z-index: 999;
+}
+
 .nav-logo {
   margin-bottom: -1em;
   width: 3em;
@@ -17,6 +22,21 @@ h1 {
 
 .cover-width {
   width: 100%;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  color: white;
+}
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  top: 200px;
 }
 
 @media (max-width: 1366px) {
