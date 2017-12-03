@@ -21,33 +21,24 @@ h1 {
 }
 
 .nav-logo {
-  margin-bottom: -1em;
+  margin-left: 1em;
+  /* margin-top: 6px; */
   width: 3em;
   height: 3em;
 }
 
-.image-container img {
-  /* position: relative; */
+.section {
+  position: relative;
+}
+
+.section img {
   width: 100%;
-  color: white;
-}
-
-.main-text {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-}
-
-.main-text h1 {
-  transform: translate(-120%, -50%);
-}
-
-.main-text p {
-  transform: translate(-90%, -50%);
+  max-width: 100%;
 }
 
 @media (max-width: 1366px) {
   .nav-logo {
+    margin-top: 0.7em;
     width: 2em;
     height: 2em;
   }
