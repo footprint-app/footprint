@@ -12,6 +12,12 @@ h1 {
 
 .navbar {
   z-index: 999;
+  margin-bottom: 0 !important;
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 .nav-logo {
@@ -20,12 +26,8 @@ h1 {
   height: 3em;
 }
 
-.cover-width {
-  width: 100%;
-}
-
-.image-container {
-  position: relative;
+.image-container img {
+  /* position: relative; */
   width: 100%;
   color: white;
 }
