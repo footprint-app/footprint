@@ -184,6 +184,21 @@ body {
 }
 
 @media (max-width: 1950px) {
+  .navbar {
+    height: 5em;
+  }
+  
+  .navbar-nav > li > a {
+    padding: 25px 10px 20px 10px !important;
+    font-size: 1.5em;
+  }
+  
+  .nav-logo {
+    margin-left: 1em;
+    width: 4em;
+    height: 4em;  
+  }
+
   .main-text .p1 {
     top: 24%;
     left: 21.8%;
@@ -238,6 +253,21 @@ body {
 }
 
 @media (max-width: 425px) {
+  .navbar {
+    height: 2em;
+  }
+  
+  .navbar-nav > li > a {
+    padding: 25px 10px 20px 10px !important;
+    font-size: 1em;
+  }
+  
+  .nav-logo {
+    margin-left: 1em;
+    width: 3em;
+    height: 3em;  
+  }
+
   .main-text .p1 {
     top: 11%;
     left: 3%;
