@@ -90,89 +90,79 @@ body {
   text-align: left;
 }
 
+#our-story {
+  width: 60%;
+  position: absolute;
+  z-index: 99;
+  top: 80%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
 @media (max-width: 1950px) {
   .main-text .p1 {
-    font-family: helvetica-condensed-bold;
-    position: absolute;
     top: 24%;
     left: 21.8%;
     font-size: 8em;
   }
   
   .main-text .p2 {
-    font-family: helvetica-condensed-bold;
-    position: absolute;
     top: 24%;
     left: 31%;
     font-size: 8em;
   }
   
   .main-text img {
-    position: absolute;
     top: 27%;
     left: 25%;
     width: 8em;
   }
   
   .main-text h2 {
-    font-family: helvetica-condensed;  
-    position: absolute;
     top: 24.5%;
     left: 50%;
     font-size: 6em;
   }
   
   .main-text p {
-    font-family: helvetica-condensed;  
-    position: absolute;
     top: 27.5%;
     left: 52%;
     font-size: 1.5em;
     width: 26%;
-    text-align: left;
   }
 }
 
 @media (max-width: 425px) {
   .main-text .p1 {
-    font-family: helvetica-condensed-bold;
-    position: absolute;
     top: 11%;
     left: 3%;
     font-size: 3em;
   }
   
   .main-text .p2 {
-    font-family: helvetica-condensed-bold;
-    position: absolute;
     top: 11%;
     left: 19%;
     font-size: 3em;
   }
   
   .main-text img {
-    position: absolute;
     top: 21%;
     left: 8.5%;
     width: 3em;
   }
   
   .main-text h2 {
-    font-family: helvetica-condensed;  
-    position: absolute;
     top: 11%;
     left: 50%;
     font-size: 3em;
   }
   
   .main-text p {
-    font-family: helvetica-condensed;  
-    position: absolute;
     top: 20.5%;
     left: 53%;
     font-size: 0.7em;
     width: 44%;
-    text-align: left;
   }
 }
 
