@@ -137,6 +137,26 @@ body {
   top: -80%;
 }
 
+.footprints-text {
+  color: white;
+}
+
+.footprints-text h1 {
+  font-family: helvetica-condensed-bold;
+  position: absolute;
+  font-size: 14em;
+  width: 30%;
+  text-align: left;
+  left: 16%;
+  top: 18%;
+  z-index: 99;
+}
+
+.footprints-text span {
+  background-color: #13A89E;
+  padding: 0 20px;
+}
+
 @media (max-width: 1950px) {
   .main-text .p1 {
     top: 24%;
