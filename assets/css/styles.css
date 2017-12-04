@@ -168,6 +168,27 @@ body {
     font-size: 1.5em;
     width: 26%;
   }
+
+  .story-text h1 {
+    font-size: 6em;
+    width: 31%;
+    left: 11.5%;
+    top: -84%;
+  }
+  
+  .story-text hr {
+    left: 44%;
+    width: 3px;
+    height: 250px;
+    top: -99%;
+  }
+  
+  .story-text p {
+    font-size: 1.5em;
+    width: 47%;
+    left: 46%;
+    top: -80%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -201,32 +222,7 @@ body {
     font-size: 0.7em;
     width: 44%;
   }
-}
 
-@media (max-width: 1950px) {
-  .story-text h1 {
-    font-size: 6em;
-    width: 31%;
-    left: 11.5%;
-    top: -84%;
-  }
-  
-  .story-text hr {
-    left: 44%;
-    width: 3px;
-    height: 250px;
-    top: -99%;
-  }
-  
-  .story-text p {
-    font-size: 1.5em;
-    width: 47%;
-    left: 46%;
-    top: -80%;
-  }
-}
-
-@media (max-width: 425px) {
   .story-text h1 {
     font-size: 1.3em;
     width: 31%;
