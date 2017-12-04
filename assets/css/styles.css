@@ -139,6 +139,7 @@ body {
 
 .footprints-text {
   color: white;
+  z-index: 99;
 }
 
 .footprints-text h1 {
@@ -147,9 +148,27 @@ body {
   font-size: 14em;
   width: 30%;
   text-align: left;
-  left: 16%;
-  top: 18%;
-  z-index: 99;
+  left: 15%;
+  top: 17%;
+}
+
+.footprints-text hr {
+  position: absolute;
+  background-color: white;
+  left: 32%;
+  width: 6px;
+  height: 180px;
+  top: 57.5%;
+}
+
+.footprints-text p {
+  font-family: helvetica-condensed;
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  left: 33%;
+  width: 25%;
+  top: 58%;
 }
 
 .footprints-text span {
