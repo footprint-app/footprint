@@ -122,7 +122,7 @@ body {
   position: absolute;
   background-color: white;
   left: 44%;
-  width: 3px;
+  width: 2px;
   height: 350px;
   top: -99%;
 }
@@ -223,6 +223,29 @@ body {
     width: 47%;
     left: 46%;
     top: -80%;
+  }
+}
+
+@media (max-width: 425px) {
+  .story-text h1 {
+    font-size: 1.3em;
+    width: 31%;
+    left: 11.5%;
+    top: -104.5%;
+  }
+  
+  .story-text hr {
+    left: 44%;
+    width: 1px;
+    height: 50px;
+    top: -115%;  
+  }
+  
+  .story-text p {
+    font-size: 6px;
+    width: 54%;
+    left: 46%;
+    top: -90%;
   }
 }
 
