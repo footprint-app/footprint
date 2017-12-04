@@ -143,39 +143,39 @@ body {
   .main-text .p1 {
     font-family: helvetica-condensed-bold;
     position: absolute;
-    top: 12%;
-    left: 18.2%;
-    font-size: 2em;
+    top: 11%;
+    left: 3%;
+    font-size: 3em;
   }
   
   .main-text .p2 {
     font-family: helvetica-condensed-bold;
     position: absolute;
-    top: 11.7%;
-    left: 29%;
-    font-size: 2em;
+    top: 11%;
+    left: 19%;
+    font-size: 3em;
   }
   
   .main-text img {
     position: absolute;
-    top: 20.7%;
-    left: 22%;
-    width: 2em;
+    top: 21%;
+    left: 8.5%;
+    width: 3em;
   }
   
   .main-text h2 {
     font-family: helvetica-condensed;  
     position: absolute;
-    top: 11.7%;
+    top: 11%;
     left: 50%;
-    font-size: 2em;
+    font-size: 3em;
   }
   
   .main-text p {
     font-family: helvetica-condensed;  
     position: absolute;
     top: 20.5%;
-    left: 52%;
+    left: 53%;
     font-size: 0.7em;
     width: 44%;
     text-align: left;
