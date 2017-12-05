@@ -364,29 +364,29 @@ body {
 
   /** Make some footprints */
   .footprints-text h1 {
-    font-size: 10em;
+    font-size: 2em;
     width: 30%;
-    left: 17%;
-    top: 18%;
+    left: 20%;
+    top: 15%;
   }
   
   .footprints-text hr {
     left: 32%;
-    width: 6px;
-    height: 140px;
-    top: 57%;
+    width: 2px;
+    height: 30px;
+    top: 51%;
   }
   
   .footprints-text p {
-    font-size: 1.5em;
+    font-size: 6px;
     left: 33%;
-    width: 25%;
+    width: 40%;
     top: 58%;
   }
   
   .footprints-text span {
     background-color: #13A89E;
-    padding: 0 20px;
+    padding: 0 5px;
   }
   /** /Make some footprints */ 
 }
