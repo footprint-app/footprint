@@ -1,3 +1,8 @@
+@font-face {
+  font-family: helvetica-condensed-bold;
+  src: url("/assets/fonts/Helvetica-Condensed-Bold.otf");
+}
+
 html {
   height: 100%;
   font-family: "Open Sans", sans-serif;
@@ -43,6 +48,7 @@ body {
 }
 
 .main-text .p1 {
+  font-family: helvetica-condensed-bold;
   position: absolute;
   top: 24%;
   left: 23.9%;
@@ -50,6 +56,7 @@ body {
 }
 
 .main-text .p2 {
+  font-family: helvetica-condensed-bold;
   position: absolute;
   top: 24%;
   left: 32.5%;
@@ -63,19 +70,21 @@ body {
   width: 10em;
 }
 
-.main-text h2 {
+.main-text hr {
   position: absolute;
-  top: 24.5%;
+  background-color: white;
   left: 50%;
-  font-size: 7em;
+  width: 7px;
+  height: 90px;
+  top: 25.5%;
 }
 
 .main-text p {
   position: absolute;
-  top: 26.5%;
-  left: 52%;
-  font-size: 1.8em;
-  width: 24%;
+  top: 26.25%;
+  left: 51.5%;
+  font-size: 2em;
+  width: 30%;
   text-align: left;
 }
 
