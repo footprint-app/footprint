@@ -291,6 +291,13 @@ body {
     padding: 0 20px;
   }
   /** /Make some footprints */
+
+  /** Safety first */
+  .safety-text p {
+    font-size: 1.5em;
+  }
+  /** /Safety first */
+
 }
 
 @media (max-width: 425px) {
@@ -394,6 +401,13 @@ body {
     padding: 0 5px;
   }
   /** /Make some footprints */ 
+
+  /** Safety first */
+  .safety-text p {
+    font-size: 6px;
+    width: 43%;
+  }
+  /** /Safety first */
 }
 
 @media (max-width: 1366px) {
