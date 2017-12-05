@@ -107,6 +107,7 @@ body {
 }
 
 .story-text h1 {
+  font-weight: bold;
   position: absolute;
   font-size: 7em;
   width: 31%;
@@ -119,16 +120,15 @@ body {
   position: absolute;
   background-color: white;
   left: 44%;
-  width: 2px;
+  width: 3px;
   height: 350px;
   top: -99%;
 }
 
 .story-text p {
-
   position: absolute;
   font-size: 2em;
-  width: 47%;
+  width: 53%;
   text-align: left;
   left: 46%;
   top: -80%;
@@ -253,10 +253,10 @@ body {
 
   /** Discovery */
   .story-text h1 {
-    font-size: 6em;
+    font-size: 5em;
     width: 31%;
     left: 11.5%;
-    top: -84%;
+    top: -80%;
   }
   
   .story-text hr {
@@ -268,7 +268,7 @@ body {
   
   .story-text p {
     font-size: 1.5em;
-    width: 47%;
+    width: 50%;
     left: 46%;
     top: -80%;
   }
@@ -364,22 +364,22 @@ body {
 
   /** Discovery */
   .story-text h1 {
-    font-size: 1.3em;
-    width: 31%;
+    font-size: 1.2em;
+    width: 30%;
     left: 11.5%;
-    top: -104.5%;
+    top: -104%;
   }
   
   .story-text hr {
     left: 44%;
     width: 1px;
     height: 50px;
-    top: -115%;  
+    top: -117%; 
   }
   
   .story-text p {
     font-size: 6px;
-    width: 54%;
+    width: 52%;
     left: 46%;
     top: -90%;
   }
