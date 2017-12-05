@@ -140,30 +140,31 @@ body {
 }
 
 .footprints-text h1 {
+  font-weight: bold;
   position: absolute;
-  font-size: 14em;
+  font-size: 13em;
   width: 30%;
   text-align: left;
-  left: 15%;
-  top: 17%;
+  left: 12%;
+  top: 19%;
 }
 
 .footprints-text hr {
   position: absolute;
   background-color: white;
-  left: 32%;
+  left: 30%;
   width: 6px;
   height: 180px;
-  top: 57.5%;
+  top: 55.5%;
 }
 
 .footprints-text p {
   position: absolute;
   color: white;
   font-size: 2em;
-  left: 33%;
-  width: 25%;
-  top: 58%;
+  left: 31%;
+  width: 28%;
+  top: 56%;
 }
 
 .footprints-text span {
@@ -278,21 +279,21 @@ body {
   .footprints-text h1 {
     font-size: 10em;
     width: 30%;
-    left: 17%;
-    top: 18%;
+    left: 12%;
+    top: 19%;
   }
   
   .footprints-text hr {
-    left: 32%;
-    width: 6px;
+    left: 30%;
+    width: 4px;
     height: 140px;
-    top: 57%;
+    top: 57%;  
   }
   
   .footprints-text p {
     font-size: 1.5em;
-    left: 33%;
-    width: 25%;
+    left: 31%;
+    width: 28%;
     top: 58%;
   }
   
@@ -349,7 +350,7 @@ body {
   
   .main-text hr {
     left: 50%;
-    width: 2px;
+    width: 1.5px;
     height: 25px;
     top: 13.5%;
   }
@@ -387,24 +388,24 @@ body {
 
   /** Make some footprints */
   .footprints-text h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     width: 30%;
-    left: 20%;
-    top: 15%;
+    left: 11%;
+    top: 13%;
   }
   
   .footprints-text hr {
-    left: 32%;
-    width: 2px;
-    height: 30px;
+    left: 28%;
+    width: 1.5px;
+    height: 44px;
     top: 51%;
   }
   
   .footprints-text p {
     font-size: 6px;
-    left: 33%;
-    width: 40%;
-    top: 58%;
+    left: 30%;
+    width: 30%;
+    top: 57.5%;
   }
   
   .footprints-text span {
