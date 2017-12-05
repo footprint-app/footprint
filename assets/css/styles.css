@@ -236,17 +236,18 @@ body {
     width: 8em;
   }
   
-  .main-text h2 {
-    top: 24.5%;
+  .main-text hr {
     left: 50%;
-    font-size: 6em;
+    width: 5px;
+    height: 65px;
+    top: 26%;
   }
   
   .main-text p {
-    top: 27.5%;
-    left: 52%;
+    top: 27%;
+    left: 51.5%;
     font-size: 1.5em;
-    width: 26%;
+    width: 30%;
   }
   /** /Footprint */
 
@@ -346,17 +347,18 @@ body {
     width: 3em;
   }
   
-  .main-text h2 {
-    top: 11%;
+  .main-text hr {
     left: 50%;
-    font-size: 3em;
+    width: 2px;
+    height: 25px;
+    top: 13.5%;
   }
   
   .main-text p {
-    top: 20.5%;
-    left: 53%;
-    font-size: 0.7em;
-    width: 44%;
+    top: 21%;
+    left: 51.5%;
+    font-size: 7px;
+    width: 45%;
   }
   /** /Footprint */
 
