@@ -1,20 +1,6 @@
-@font-face {
-  font-family: helvetica-condensed;
-  src: url("/assets/fonts/Helvetica-Condensed.otf");
-}
-
-@font-face {
-  font-family: helvetica-condensed-bold;
-  src: url("/assets/fonts/Helvetica-Condensed-Bold.otf");
-}
-
-@font-face {
-  font-family: libre-baskerville;
-  src: url("/assets/fonts/LibreBaskerville-Regular.otf");
-}
-
 html {
   height: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -57,7 +43,6 @@ body {
 }
 
 .main-text .p1 {
-  font-family: helvetica-condensed-bold;
   position: absolute;
   top: 24%;
   left: 23.9%;
@@ -65,7 +50,6 @@ body {
 }
 
 .main-text .p2 {
-  font-family: helvetica-condensed-bold;
   position: absolute;
   top: 24%;
   left: 32.5%;
@@ -80,7 +64,6 @@ body {
 }
 
 .main-text h2 {
-  font-family: helvetica-condensed;  
   position: absolute;
   top: 24.5%;
   left: 50%;
@@ -88,7 +71,6 @@ body {
 }
 
 .main-text p {
-  font-family: helvetica-condensed;  
   position: absolute;
   top: 26.5%;
   left: 52%;
@@ -116,7 +98,6 @@ body {
 }
 
 .story-text h1 {
-  font-family: helvetica-condensed-bold;
   position: absolute;
   font-size: 7em;
   width: 31%;
@@ -135,7 +116,7 @@ body {
 }
 
 .story-text p {
-  font-family: helvetica-condensed;
+
   position: absolute;
   font-size: 2em;
   width: 47%;
@@ -150,7 +131,6 @@ body {
 }
 
 .footprints-text h1 {
-  font-family: helvetica-condensed-bold;
   position: absolute;
   font-size: 14em;
   width: 30%;
@@ -169,7 +149,6 @@ body {
 }
 
 .footprints-text p {
-  font-family: helvetica-condensed;
   position: absolute;
   color: white;
   font-size: 2em;
@@ -183,7 +162,33 @@ body {
   padding: 0 20px;
 }
 
+.safety-text {
+  color: white;
+  z-index: 99;
+}
 
+.safety-text .safety-headline {
+  position: absolute;
+  width: 30%;
+  left: 23%;
+  top: 11%;
+}
+
+.safety-text p {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  width: 39%;
+  left: 54%;
+  top: 17.5%;
+}
+
+.safety-text .safety-graph {
+  position: absolute;
+  width: 55%;
+  left: 19%;
+  top: 57%;
+}
 
 @media (max-width: 1950px) {
   /** Nav */
