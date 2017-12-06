@@ -200,6 +200,49 @@ body {
   top: 57%;
 }
 
+.network-text {
+  color: white;
+  z-index: 99;  
+}
+
+.network-text .p1 {
+  position: absolute;
+  font-size: 14em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  left: 30.5%;
+  top: 32%;
+}
+
+.network-text .p2 {
+  position: absolute;
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  left: 37.5%;
+  top: 44%;
+}
+  
+.network-text .network-description {
+  position: absolute;
+  left: 33%;
+  top: 59.5%;
+  background-color: #13A89E;
+  padding: 1%;
+  width: 33%;
+}
+
+.network-text .network-description hr {
+  width: 33%;
+  margin-top: 3em;
+  margin-bottom: -3em;
+}
+
+.network-text .network-description p {
+  font-size: 2em;
+  padding: 3em;
+}
+
 @media (max-width: 1950px) {
   /** Nav */
   .navbar {
