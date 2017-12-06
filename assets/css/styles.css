@@ -243,6 +243,11 @@ body {
   padding: 3em;
 }
 
+.community-experience {
+  color: white;
+  z-index: 99;
+}
+
 @media (max-width: 1950px) {
   /** Nav */
   .navbar {
