@@ -352,6 +352,40 @@ body {
   }
   /** /Safety first */
 
+  /** Expand your network */
+  .network-text .p1 {
+    font-size: 11em;
+    letter-spacing: 0.15em;
+    left: 30.5%;
+    top: 32%;
+  }
+  
+  .network-text .p2 {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    left: 38.5%;
+    top: 44%;
+  }
+    
+  .network-text .network-description {
+    left: 33%;
+    top: 59.5%;
+    padding: 1%;
+    width: 33%;
+  }
+  
+  .network-text .network-description hr {
+    width: 32%;
+    margin-top: 3em;
+    margin-bottom: -3em;
+  }
+  
+  .network-text .network-description p {
+    font-size: 1.5em;
+    padding: 3em;
+  }
+  /** /Expand your network */
+
 }
 
 @media (max-width: 425px) {
@@ -375,19 +409,19 @@ body {
   /** Footprint */
   .main-text .p1 {
     top: 11%;
-    left: 3%;
+    left: 2%;
     font-size: 3em;
   }
   
   .main-text .p2 {
     top: 11%;
-    left: 19%;
+    left: 18%;
     font-size: 3em;
   }
   
   .main-text img {
     top: 21%;
-    left: 8.5%;
+    left: 7.5%;
     width: 3em;
   }
   
@@ -422,10 +456,10 @@ body {
   }
   
   .story-text p {
-    font-size: 6px;
+    font-size: 5px;
     width: 52%;
     left: 46%;
-    top: -90%;
+    top: -85%;
   }
   /** /Discovery */
 
@@ -459,7 +493,7 @@ body {
 
   /** Safety first */
   .safety-text p {
-    font-size: 6px;
+    font-size: 5px;
     width: 43%;
   }
   /** /Safety first */
