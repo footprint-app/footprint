@@ -248,6 +248,53 @@ body {
   z-index: 99;
 }
 
+.community-experience .head1 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 5em;
+  left: 6.5%;
+  top: 21%;
+}
+
+.community-experience .head2 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 5em;
+  left: 57.5%;
+  top: 21%;
+}
+
+.community-experience .hr1 {
+  position: absolute;
+  left: 17%;
+  top: 29%;
+  width: 15%;
+  height: 100%;
+}
+
+.community-experience .hr2 {
+  position: absolute;
+  left: 67%;
+  top: 29%;
+  width: 15%;
+}
+
+.community-experience .p1 {
+  position: absolute;
+  font-size: 2em;
+  left: 11%;
+  top: 32%;
+  width: 29%;
+}
+
+.community-experience .p2 {
+  position: absolute;
+  font-size: 2em;
+  left: 60.5%;
+  top: 32%;
+  width: 29%;
+}
+
 @media (max-width: 1950px) {
   /** Nav */
   .navbar {
