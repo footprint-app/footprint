@@ -296,6 +296,52 @@ body {
   width: 33%;
 }
 
+.ready {
+  background: black;
+  height: 1000px;
+  position: relative;
+  color: white;
+}
+
+.ready img {
+  position: absolute;
+  top: -13%;
+}
+
+.ready .get-started-text {
+  text-align: center;
+  width: 30%;
+  position: absolute;
+  left: 34%;
+  top: 52%;
+}
+
+.ready .get-started-text .get-started {
+  border: 3px solid white;
+  font-weight: bold;
+  padding: 1em;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.ready .get-started-text .get-started p {
+  font-size: 2em;
+  margin: 0;
+  padding: 0.7em;
+}
+
+.ready .get-started-text .hr1 {
+  float: left;
+  width: 19%;
+  margin-top: 55px;
+}
+
+.ready .get-started-text .hr2 {
+  float: right;
+  width: 19%;
+  margin-top: -55px;
+}
+
 @media (max-width: 1950px) {
   /** Nav */
   .navbar {
