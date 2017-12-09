@@ -266,10 +266,9 @@ body {
 
 .community-experience .hr1 {
   position: absolute;
-  left: 17%;
+  left: 18%;
   top: 29%;
   width: 15%;
-  height: 100%;
 }
 
 .community-experience .hr2 {
@@ -281,18 +280,20 @@ body {
 
 .community-experience .p1 {
   position: absolute;
+  text-align: center;
   font-size: 2em;
-  left: 11%;
+  left: 10%;
   top: 32%;
-  width: 29%;
+  width: 33%;
 }
 
 .community-experience .p2 {
   position: absolute;
+  text-align: center;
   font-size: 2em;
-  left: 60.5%;
+  left: 59%;
   top: 32%;
-  width: 29%;
+  width: 33%;
 }
 
 @media (max-width: 1950px) {
@@ -438,6 +439,45 @@ body {
   }
   /** /Expand your network */
 
+  /** The community matters & First hand experience */
+  .community-experience .head1 {
+    font-size: 4em;
+    left: 5%;
+    top: 21%;  
+  }
+  
+  .community-experience .head2 {
+    font-size: 4em;
+    left: 56.5%;
+    top: 21%;
+  }
+  
+  .community-experience .hr1 {
+    left: 18%;
+    top: 29%;
+    width: 15%;
+  }
+  
+  .community-experience .hr2 {
+    left: 67%;
+    top: 29%;
+    width: 15%;
+  }
+  
+  .community-experience .p1 {
+    font-size: 1.5em;
+    left: 9%;
+    top: 32%;
+    width: 33%;
+  }
+  
+  .community-experience .p2 {
+    font-size: 1.5em;
+    left: 57%;
+    top: 32%;
+    width: 34%;
+  }
+  /** /The community matters & First hand experience */
 }
 
 @media (max-width: 425px) {
@@ -583,6 +623,46 @@ body {
     padding: 1.5em;
   }
   /** /Expand your network */
+
+  /** The community matters & First hand experience */
+  .community-experience .head1 {
+    font-size: 1em;
+    left: 2.2%;
+    top: 21%;
+  }
+  
+  .community-experience .head2 {
+    font-size: 1em;
+    left: 53.5%;
+    top: 21%;
+  }
+  
+  .community-experience .hr1 {
+    left: 18%;
+    top: 30%;
+    width: 15%;
+  }
+  
+  .community-experience .hr2 {
+    left: 67%;
+    top: 30%;
+    width: 15%;
+  }
+  
+  .community-experience .p1 {
+    font-size: 7px;
+    left: 9%;
+    top: 41%;
+    width: 33%;
+  }
+  
+  .community-experience .p2 {
+    font-size: 7px;
+    left: 57%;
+    top: 41%;
+    width: 34%;
+  }
+  /** /The community matters & First hand experience */  
 }
 
 @media (max-width: 1366px) {
