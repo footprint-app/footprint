@@ -308,6 +308,11 @@ body {
   top: -13%;
 }
 
+.ready a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .ready .get-started-text {
   text-align: center;
   width: 30%;
@@ -333,13 +338,13 @@ body {
 .ready .get-started-text .hr1 {
   float: left;
   width: 19%;
-  margin-top: 55px;
+  margin-top: 57px;
 }
 
 .ready .get-started-text .hr2 {
   float: right;
   width: 19%;
-  margin-top: -55px;
+  margin-top: -57px;
 }
 
 @media (max-width: 1950px) {
@@ -524,6 +529,35 @@ body {
     width: 34%;
   }
   /** /The community matters & First hand experience */
+
+  /** Get started */
+  .ready {
+    height: 800px;
+  }
+  
+  .ready img {
+    position: absolute;
+    top: -10%;
+  }
+  
+  .ready .get-started-text .get-started p {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0.7em;
+  }
+  
+  .ready .get-started-text .hr1 {
+    float: left;
+    width: 19%;
+    margin-top: 47px;
+  }
+  
+  .ready .get-started-text .hr2 {
+    float: right;
+    width: 19%;
+    margin-top: -47px;
+  }
+  /** /Get started */
 }
 
 @media (max-width: 425px) {
@@ -709,6 +743,41 @@ body {
     width: 34%;
   }
   /** /The community matters & First hand experience */  
+
+  /** Get started */
+  .ready {
+    height: 200px;
+  }
+
+  .ready .get-started-text {
+    width: 75%;
+    left: 12%;
+    top: 48%;
+  }
+  
+  .ready .get-started-text .get-started {
+    padding: 1em;
+    width: 33%;
+  }
+
+  .ready .get-started-text .get-started p {
+    font-size: 9px;
+    margin: 0;
+    padding: 1px;
+  }
+  
+  .ready .get-started-text .hr1 {
+    float: left;
+    width: 19%;
+    margin-top: 25px;
+  }
+  
+  .ready .get-started-text .hr2 {
+    float: right;
+    width: 19%;
+    margin-top: -25px;
+  }
+  /** /Get started */  
 }
 
 @media (max-width: 1366px) {
