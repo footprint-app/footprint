@@ -233,6 +233,7 @@ body {
 }
 
 .network-text .network-description hr {
+  border: 2px solid white;
   width: 33%;
   margin-top: 3em;
   margin-bottom: -3em;
@@ -266,6 +267,7 @@ body {
 
 .community-experience .hr1 {
   position: absolute;
+  border: 2px solid white;
   left: 18%;
   top: 29%;
   width: 15%;
@@ -273,6 +275,7 @@ body {
 
 .community-experience .hr2 {
   position: absolute;
+  border: 2px solid white;
   left: 67%;
   top: 29%;
   width: 15%;
@@ -336,12 +339,14 @@ body {
 }
 
 .ready .get-started-text .hr1 {
+  border: 2px solid white;
   float: left;
   width: 19%;
   margin-top: 57px;
 }
 
 .ready .get-started-text .hr2 {
+  border: 2px solid white;
   float: right;
   width: 19%;
   margin-top: -57px;
@@ -693,6 +698,7 @@ body {
   }
   
   .network-text .network-description hr {
+    border: 1px solid white;
     width: 32%;
     margin-top: 0.8em;
     margin-bottom: 0;
@@ -718,12 +724,14 @@ body {
   }
   
   .community-experience .hr1 {
+    border: 1px solid white;    
     left: 18%;
     top: 30%;
     width: 15%;
   }
   
   .community-experience .hr2 {
+    border: 1px solid white;    
     left: 67%;
     top: 30%;
     width: 15%;
@@ -767,12 +775,14 @@ body {
   }
   
   .ready .get-started-text .hr1 {
+    border: 1px solid white;
     float: left;
     width: 19%;
     margin-top: 25px;
   }
   
   .ready .get-started-text .hr2 {
+    border: 1px solid white;
     float: right;
     width: 19%;
     margin-top: -25px;
