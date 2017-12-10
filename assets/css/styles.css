@@ -16,6 +16,8 @@ body {
   z-index: 999;
   margin-bottom: 0 !important;
   height: 7em;
+  background-color: black !important;
+  color: white !important;
 }
 
 .navbar-nav > li > a {
@@ -180,10 +182,10 @@ body {
 .safety-text hr {
   position: absolute;
   background-color: white;
-  left: 44%;
+  left: 54%;
   width: 3px;
-  height: 350px;
-  top: -99%;
+  height: 118px;
+  top: 16.6%;
 }
 
 .safety-text .safety-headline {
@@ -198,7 +200,7 @@ body {
   color: white;
   font-size: 2em;
   width: 39%;
-  left: 54%;
+  left: 55%;
   top: 17.5%;
 }
 
@@ -467,6 +469,13 @@ body {
   /** Safety first */
   .safety-text p {
     font-size: 1.5em;
+  }
+
+  .safety-text hr {
+    left: 54%;
+    width: 2px;
+    height: 135px;
+    top: 16.5%;
   }
   /** /Safety first */
 
@@ -795,8 +804,6 @@ body {
   /** Nav */
   .navbar {
     height: 3em;
-    background-color: black !important;
-    color: white !important;
   }
   
   .navbar-nav > li > a {
@@ -1149,6 +1156,13 @@ body {
   .safety-text p {
     font-size: 5px;
     width: 43%;
+  }
+
+  .safety-text hr {
+    left: 54%;
+    top: 10.6%;
+    height: 33px;
+    width: 1px;
   }
   /** /Safety first */
 
