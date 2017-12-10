@@ -782,7 +782,7 @@ body {
   /** /Get started */
 }
 
-@media screen and (min-width: 1250px) and (max-width: 1439px) {
+@media screen and (min-width: 1150px) and (max-width: 1439px) {
   /** Nav */
   .navbar {
     height: 3em;
@@ -805,19 +805,19 @@ body {
   /** Footprint */
   .main-text .p1 {
     top: 24%;
-    left: 12.8%;
+    left: 9%;
     font-size: 7em;
   }
   
   .main-text .p2 {
     top: 24%;
-    left: 25%;
+    left: 23%;
     font-size: 7em;
   }
   
   .main-text img {
     top: 27%;
-    left: 17%;
+    left: 14%;
     width: 7em;
   }
   
@@ -839,16 +839,16 @@ body {
 
   /** Discovery */
   .story-text h1 {
-    font-size: 4em;
+    font-size: 3em;
     width: 31%;
     left: 11.5%;
-    top: -90%;  
+    top: -85%;
   }
   
   .story-text hr {
     left: 44.5%;
     width: 2px;
-    height: 165px;
+    height: 160px;
     top: -102%;
   }
   
@@ -871,15 +871,15 @@ body {
   .footprints-text hr {
     left: 30%;
     width: 2px;
-    height: 115px;
-    top: 54.3%;
+    height: 110px;
+    top: 56%;
   }
   
   .footprints-text p {
-    font-size: 1.1em;
+    font-size: 1em;
     left: 31%;
     width: 25%;
-    top: 56%;
+    top: 58%;
   }
   
   .footprints-text span {
@@ -896,7 +896,7 @@ body {
 
   /** Expand your network */
   .network-text .p1 {
-    font-size: 7.6em;
+    font-size: 7.2em;
     letter-spacing: 0.12em;
     left: 29.7%;
     top: 30%;
@@ -904,8 +904,8 @@ body {
   
   .network-text .p2 {
     font-size: 2em;
-    letter-spacing: 0.2em;
-    left: 38%;
+    letter-spacing: 0.15em;
+    left: 38.3%;
     top: 43%;
   }
     
@@ -925,20 +925,20 @@ body {
   
   .network-text .network-description p {
     font-size: 1em;
-    padding: 3em;
+    padding: 2.5em;
   }
   /** /Expand your network */
 
   /** The community matters & First hand experience */
   .community-experience .head1 {
     font-size: 2.5em;
-    left: 6.5%;
+    left: 5.5%;
     top: 21%;
   }
   
   .community-experience .head2 {
     font-size: 2.5em;
-    left: 57.5%;
+    left: 56.5%;
     top: 21%;
   }
   
@@ -957,17 +957,18 @@ body {
   }
   
   .community-experience .p1 {
-    font-size: 1.1em;
+    font-size: 1em;
     left: 9%;
     top: 34.5%;
     width: 33%;
   }
   
   .community-experience .p2 {
-    font-size: 1.1em;
+    font-size: 1em;
     left: 58%;
     top: 34.5%;
-    width: 31%;
+    width: 34%;
+  
   }
   /** /The community matters & First hand experience */
 
@@ -982,7 +983,7 @@ body {
   }
   
   .ready .get-started-text .get-started p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0;
     padding: 0.3em;
   }
