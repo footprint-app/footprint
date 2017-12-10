@@ -312,8 +312,8 @@ body {
 }
 
 .ready a, a:hover, a:active, a:visited {
-  text-decoration: none;
-  color: white;
+  text-decoration: none !important;
+  color: white !important;
 }
 
 .ready .get-started-text {
@@ -352,7 +352,7 @@ body {
   margin-top: -57px;
 }
 
-@media (max-width: 1950px) {
+@media screen and (max-width: 1950px) {
   /** Nav */
   .navbar {
     height: 5em;
@@ -565,7 +565,7 @@ body {
   /** /Get started */
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   /** Nav */
   .navbar {
     height: 2em;
@@ -790,7 +790,7 @@ body {
   /** /Get started */  
 }
 
-@media (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
   .nav-logo {
     margin-top: 0.7em;
     width: 2em;
