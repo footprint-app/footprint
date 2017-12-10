@@ -177,6 +177,15 @@ body {
   z-index: 99;
 }
 
+.safety-text hr {
+  position: absolute;
+  background-color: white;
+  left: 44%;
+  width: 3px;
+  height: 350px;
+  top: -99%;
+}
+
 .safety-text .safety-headline {
   position: absolute;
   width: 30%;
@@ -786,6 +795,8 @@ body {
   /** Nav */
   .navbar {
     height: 3em;
+    background-color: black !important;
+    color: white !important;
   }
   
   .navbar-nav > li > a {
@@ -795,35 +806,35 @@ body {
   }
   
   .nav-logo {
+    width: 2em;
+    height: 2em;
     margin-left: 1em;
-    width: 3em;
-    height: 3em;
-    margin-top: 1em; 
+    margin-top: -0.5em;
   }
   /** /Nav */
 
   /** Footprint */
   .main-text .p1 {
     top: 24%;
-    left: 9%;
+    left: 13%;
     font-size: 7em;
   }
   
   .main-text .p2 {
     top: 24%;
-    left: 23%;
+    left: 25%;
     font-size: 7em;
   }
   
   .main-text img {
-    top: 27%;
-    left: 14%;
+    top: 28%;
+    left: 17%;
     width: 7em;
   }
   
   .main-text hr {
     left: 50%;
-    width: 3px;
+    width: 2px;
     height: 65px;
     top: 26.5%;
   }
@@ -838,6 +849,11 @@ body {
   /** /Footprint */
 
   /** Discovery */
+
+  #our-story {
+    top: 78%;    
+  }
+
   .story-text h1 {
     font-size: 3em;
     width: 31%;
@@ -869,17 +885,17 @@ body {
   }
   
   .footprints-text hr {
-    left: 30%;
+    left: 37%;
     width: 2px;
     height: 110px;
-    top: 56%;
+    top: 54%;
   }
   
   .footprints-text p {
     font-size: 1em;
-    left: 31%;
-    width: 25%;
-    top: 58%;
+    left: 38%;
+    width: 24%;
+    top: 56%;
   }
   
   .footprints-text span {
@@ -891,41 +907,57 @@ body {
   /** Safety first */
   .safety-text p {
     font-size: 1.1em;
+    left: 55%;
+    width: 40%;
+  }
+
+  .safety-text hr {
+    left: 54%;
+    top: 15.6%;
+    height: 120px;
+    width: 2px;
   }
   /** /Safety first */
 
   /** Expand your network */
   .network-text .p1 {
     font-size: 7.2em;
-    letter-spacing: 0.12em;
-    left: 29.7%;
+    letter-spacing: 0.15em;
     top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+
   }
   
   .network-text .p2 {
     font-size: 2em;
-    letter-spacing: 0.15em;
-    left: 38.3%;
+    letter-spacing: 0.2em;
     top: 43%;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
     
   .network-text .network-description {
-    left: 33%;
     top: 59.5%;
     padding: 1%;
     width: 34%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
   
   .network-text .network-description hr {
     width: 32%;
-    margin-top: 1.5em;
-    margin-bottom: -1.5em;
+    margin-top: 1em;
+    margin-bottom: -1em;
     border: 1px solid white;
   }
   
   .network-text .network-description p {
-    font-size: 1em;
-    padding: 2.5em;
+    font-size: 1.1em;
+    padding: 2em;
   }
   /** /Expand your network */
 
@@ -943,17 +975,21 @@ body {
   }
   
   .community-experience .hr1 {
-    left: 18%;
     top: 30%;
     width: 15%;
     border: 1px solid white;
+    left: 0;
+    right: 0;
+    margin-left: 17%;
   }
   
   .community-experience .hr2 {
-    left: 67%;
     top: 30%;
     width: 15%;
     border: 1px solid white;
+    left: 0;
+    right: 0;
+    margin-right: 17%;
   }
   
   .community-experience .p1 {
@@ -981,6 +1017,10 @@ body {
     position: absolute;
     top: -10%;
   }
+
+  .ready .get-started-text .get-started {
+    padding: 0.5em 0.2em 0.5em 0.2em;
+  }
   
   .ready .get-started-text .get-started p {
     font-size: 1.2em;
@@ -991,13 +1031,13 @@ body {
   .ready .get-started-text .hr1 {
     float: left;
     width: 19%;
-    margin-top: 30px;
+    margin-top: 26px;
   }
   
   .ready .get-started-text .hr2 {
     float: right;
     width: 19%;
-    margin-top: -35px;
+    margin-top: -26px;
   }
   /** /Get started */
 }
@@ -1227,6 +1267,7 @@ body {
   /** /Get started */  
 }
 
+/*
 @media screen and (max-width: 1366px) {
   .nav-logo {
     margin-top: 0.6em;
@@ -1234,3 +1275,4 @@ body {
     height: 2em;
   }
 }
+*/
