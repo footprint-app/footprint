@@ -849,7 +849,7 @@ body {
   .main-text p {
     top: 28.5%;
     left: 51.5%;
-    font-size: 1.1em;
+    font-size: 1em;
     width: 30%;
     line-height: 23px;
   }
@@ -876,10 +876,10 @@ body {
   }
   
   .story-text p {
-    font-size: 1.1em;
+    font-size: 1em;
     width: 50%;
     left: 46%;
-    top: -88%;  
+    top: -82%;  
   }
   /** /Discovery */
 
@@ -913,7 +913,7 @@ body {
 
   /** Safety first */
   .safety-text p {
-    font-size: 1.1em;
+    font-size: 1em;
     left: 55%;
     width: 40%;
   }
@@ -921,7 +921,7 @@ body {
   .safety-text hr {
     left: 54%;
     top: 15.6%;
-    height: 120px;
+    height: 92px;
     width: 2px;
   }
   /** /Safety first */
