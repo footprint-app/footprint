@@ -25,6 +25,11 @@ body {
   font-size: 2em;
 }
 
+.navbar-nav a:hover, a:active, a:visited {
+  text-decoration: none !important;
+  color: white !important;
+}
+
 .nav-logo {
   margin-left: 2em;
   width: 6em;
