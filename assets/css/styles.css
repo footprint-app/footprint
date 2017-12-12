@@ -25,9 +25,15 @@ body {
   font-size: 2em;
 }
 
-.navbar-nav a:hover, a:active, a:visited {
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:visited {
   text-decoration: none !important;
   color: white !important;
+}
+
+.navbar-nav > li > a:hover, 
+.navbar-nav > li > a:focus {
+  background-color: transparent !important;
 }
 
 .nav-logo {
